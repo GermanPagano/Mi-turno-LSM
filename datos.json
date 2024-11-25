@@ -21,7 +21,7 @@
             "llegada": "21:19"
           },
           {
-            "tren": "desvia"
+            "tren": "DESVIA"
           },
           {
             "tren": 3441,
@@ -47,13 +47,13 @@
             "tren": 3713,
             "salida": "19:24",
             "origen": "RETIRO",
-            "destino": "JOSE C PAZ",
+            "destino": "JCPAZ",
             "llegada": "20:33"
           },
           {
             "tren": 3724,
             "salida": "20:57",
-            "origen": "JOSE C PAZ",
+            "origen": "JCPAZ",
             "destino": "CASEROS",
             "llegada": "21:30"
           }
@@ -75,7 +75,7 @@
             "salida": "21:45",
             "origen": "CABRED",
             "destino": "CASEROS",
-            "llegada": "23:07"
+            "llegada": "23:02"
           }
         ]
       }
@@ -89,32 +89,32 @@
             "tren": 3839,
             "salida": "15:54",
             "origen": "CASEROS",
-            "destino": "JOSE C PAZ",
-            "llegada": "16:38"
+            "destino": "JCPAZ",
+            "llegada": "16:28"
           },
           {
             "tren": 3400,
-            "salida": "16:58",
-            "origen": "JOSE C PAZ",
-            "destino": "PILAR",
+            "salida": "17:01",
+            "origen": "JCPAZ",
+            "destino": "RETIRO",
             "llegada": "17:59"
           },
           {
             "tren": 3415,
-            "salida": "18:45",
-            "origen": "PILAR",
-            "destino": "RETIRO",
-            "llegada": "20:22"
+            "salida": "18:41",
+            "origen": "RETIRO",
+            "destino": "PILAR",
+            "llegada": "20:12"
           },
           {
-            "tren": "desvia"
+            "tren": "DESVIA"
           },
           {
             "tren": 3432,
             "salida": "21:03",
             "origen": " P/S PILAR",
             "destino": "CASEROS",
-            "llegada": "21:50"
+            "llegada": "21:58"
           }
         ]
       },
@@ -131,7 +131,7 @@
           },
           {
             "tren": 3714,
-            "salida": "19:09",
+            "salida": "19:00",
             "origen": "PILAR",
             "destino": "RETIRO",
             "llegada": "20:31"
@@ -180,15 +180,22 @@
           },
           {
             "tren": 3401,
-            "salida": "16:56",
+            "salida": "16:53",
             "origen": "RETIRO",
-            "destino": "JOSE C PAZ",
-            "llegada": "18:32"
+            "destino": "JCPAZ",
+            "llegada": "18:02"
           },
           {
             "tren": 3412,
-            "salida": "18:43",
-            "origen": "JOSE C PAZ",
+            "salida": "18:36",
+            "origen": "JCPAZ",
+            "destino": "RETIRO",
+            "llegada": "19:34"
+          },
+          {
+            "tren": 3427,
+            "salida": "20:19",
+            "origen": " P/S RETIRO",
             "destino": "CASEROS",
             "llegada": "20:54"
           }
@@ -199,25 +206,25 @@
         "horarioDejas": "22:15",
         "tabla": [
           {
-            "tren": 3668,
+            "tren": 3686,
             "salida": "15:39",
             "origen": "CASEROS",
-            "destino": "JOSE C PAZ",
+            "destino": "RETIRO",
             "llegada": "16:15"
           },
           {
             "tren": 3697,
-            "salida": "16:54",
-            "origen": "JOSE C PAZ",
-            "destino": "RETIRO",
-            "llegada": "17:29"
+            "salida": "16:53",
+            "origen": "RETIRO",
+            "destino": "JCPAZ",
+            "llegada": "18:02"
           },
           {
             "tren": 3708,
-            "salida": "18:18",
-            "origen": "RETIRO",
-            "destino": "JOSE C PAZ",
-            "llegada": "19:20"
+            "salida": "18:28",
+            "origen": "JCPAZ",
+            "destino": "RETIRO",
+            "llegada": "19:37"
           }
         ]
       },
@@ -229,21 +236,21 @@
             "tren": 3880,
             "salida": "17:20",
             "origen": "CASEROS",
-            "destino": "CABRED",
+            "destino": "RETIRO",
             "llegada": "17:56"
           },
           {
             "tren": 3891,
-            "salida": "18:32",
-            "origen": "CABRED",
-            "destino": "CASEROS",
-            "llegada": "19:57"
+            "salida": "18:23",
+            "origen": "RETIRO",
+            "destino": "CABRED",
+            "llegada": "20:16"
           },
           {
             "tren": 3906,
-            "salida": "20:30",
-            "origen": "CASEROS",
-            "destino": "CABRED",
+            "salida": "20:32",
+            "origen": "CABRED",
+            "destino": "CASEROS",
             "llegada": "21:49"
           }
         ]
@@ -258,15 +265,15 @@
             "tren": 3405,
             "salida": "18:00",
             "origen": "CASEROS",
-            "destino": "JOSE C PAZ",
+            "destino": "JCPAZ",
             "llegada": "18:34"
           },
           {
             "tren": 3416,
             "salida": "19:07",
-            "origen": "JOSE C PAZ",
-            "destino": "CASEROS",
-            "llegada": "20:13"
+            "origen": "JCPAZ",
+            "destino": "RETIRO",
+            "llegada": "20:16"
           },
           {
             "tren": 3431,
@@ -285,15 +292,22 @@
             "tren": 3701,
             "salida": "18:04",
             "origen": "CASEROS",
-            "destino": "JOSE C PAZ",
+            "destino": "JCPAZ",
             "llegada": "18:38"
           },
           {
+            "tren": 3712,
+            "salida": "19:04",
+            "origen": "JCPAZ",
+            "destino": "RETIRO",
+            "llegada": "20:13"
+          },
+          {
             "tren": 3723,
-            "salida": "20:11",
-            "origen": "JOSE C PAZ",
+            "salida": "21:01",
+            "origen": "RETIRO",
             "destino": "CASEROS",
-            "llegada": "21:06"
+            "llegada": "21:36"
           }
         ]
       },
@@ -310,17 +324,17 @@
           },
           {
             "tren": 3892,
-            "salida": "18:47",
+            "salida": "18:04",
             "origen": "CABRED",
-            "destino": "CASEROS",
+            "destino": "RETIRO",
             "llegada": "19:57"
           },
           {
             "tren": 3903,
             "salida": "20:22",
-            "origen": "CASEROS",
-            "destino": "CABRED",
-            "llegada": "21:21"
+            "origen": "RETIRO",
+            "destino": "CASEROS",
+            "llegada": "20:57"
           }
         ]
       }
@@ -334,20 +348,27 @@
             "tren": 3385,
             "salida": "15:24",
             "origen": "CASEROS",
-            "destino": "JOSE C PAZ",
+            "destino": "JCPAZ",
             "llegada": "15:58"
+          },
+          {
+            "tren": 3396,
+            "salida": "16:31",
+            "origen": "JCPAZ",
+            "destino": "RETIRO",
+            "llegada": "17:29"
           },
           {
             "tren": 3411,
             "salida": "18:11",
-            "origen": "JOSE C PAZ",
-            "destino": "RETIRO",
+            "origen": "RETIRO",
+            "destino": "JCPAZ",
             "llegada": "19:20"
           },
           {
             "tren": 3422,
             "salida": "19:55",
-            "origen": "RETIRO",
+            "origen": "JCPAZ",
             "destino": "CASEROS",
             "llegada": "20:28"
           }
@@ -366,14 +387,14 @@
           },
           {
             "tren": 3710,
-            "salida": "18:25",
+            "salida": "18:24",
             "origen": "PILAR",
             "destino": "RETIRO",
             "llegada": "19:55"
           },
           {
             "tren": 3721,
-            "salida": "20:46",
+            "salida": "20:42",
             "origen": "RETIRO",
             "destino": "CASEROS",
             "llegada": "21:17"
