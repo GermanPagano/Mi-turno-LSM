@@ -2,10 +2,10 @@ const express = require('express');
 const hbs = require('hbs');
 const axios = require('axios');
 const path = require('path');
+const moment = require('moment-timezone'); // Para ajustar la zona horaria
 const turnosData = require('./datos.json'); // Importar el archivo JSON
 const app = express();
-const PORT = process.env.PORT || 3000;
-
+const PORT = process.env.PORT || 3000; // Usar el puerto proporcionado por el entorno o 3000 por defecto
 
 // Configuración de Handlebars
 app.set('view engine', 'hbs');
@@ -13,6 +13,14 @@ app.set('views', path.join(__dirname, 'views'));
 
 // Middleware para archivos estáticos
 app.use(express.static(path.join(__dirname, 'public')));
+
+// Función para traducir el día al español
+function traducirDia(dia) {
+    const diasEnIngles = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
+    const diasEnEspanol = ['domingo', 'lunes', 'martes', 'miercoles', 'jueves', 'viernes', 'sabado'];
+    const index = diasEnIngles.indexOf(dia.toLowerCase());
+    return index !== -1 ? diasEnEspanol[index] : null;
+}
 
 // Función para calcular el turno basado en el día de franco
 function calcularTurno(diaFranco, diaHoy) {
@@ -36,18 +44,23 @@ app.get('/:diagramaId/:diaFranco', async (req, res) => {
         return res.render('error', { message: 'El diagrama proporcionado no es válido.' });
     }
 
-    // Obtener el día actual
-    const diasSemana = ['domingo', 'lunes', 'martes', 'miercoles', 'jueves', 'viernes', 'sabado'];
-    const todayIndex = new Date().getDay();
-    const today = diasSemana[todayIndex];
-    console.log(`[DEBUG] Día actual: ${today}`);
+    // Obtener el día actual ajustado a la zona horaria de Argentina
+    const todayInEnglish = moment().tz('America/Argentina/Buenos_Aires').format('dddd').toLowerCase();
+    const today = traducirDia(todayInEnglish); // Traducir el día al español
+    console.log(`[DEBUG] Día actual ajustado a la zona horaria (en español): ${today}`);
+
+    if (!today) {
+        console.error(`[ERROR] No se pudo determinar el día actual.`);
+        return res.render('error', { message: 'Error al determinar el día actual.' });
+    }
 
     // Verificar si hoy es feriado usando una API externa
     let isFeriado = false;
     try {
         const response = await axios.get('https://api.argentinadatos.com/v1/feriados/2024');
         const feriados = response.data || [];
-        isFeriado = feriados.some(f => f.dia === new Date().toISOString().split('T')[0]);
+        const todayISO = moment().tz('America/Argentina/Buenos_Aires').format('YYYY-MM-DD');
+        isFeriado = feriados.some(f => f.dia === todayISO);
     } catch (error) {
         console.error(`[ERROR] Error al verificar si es feriado: ${error.message}`);
     }
