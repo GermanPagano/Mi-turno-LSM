@@ -1,0 +1,420 @@
+{
+
+  "208": {
+    "1": {
+      "LU-VIE": {
+        "horarioTomas": "16:15",
+        "horarioDejas": "23:30",
+        "tabla": [
+          {
+            "tren": 3407,
+            "salida": "18:16",
+            "origen": "CASEROS",
+            "destino": "PILAR",
+            "llegada": "19:12"
+          },
+          {
+            "tren": 3424,
+            "salida": "19:48",
+            "origen": "PILAR",
+            "destino": "RETIRO",
+            "llegada": "21:19"
+          },
+          {
+            "tren": "desvia"
+          },
+          {
+            "tren": 3441,
+            "salida": "22:31",
+            "origen": "P/S RETIRO",
+            "destino": "CASEROS",
+            "llegada": "23:06"
+          }
+        ]
+      },
+      "SA": {
+        "horarioTomas": "16:15",
+        "horarioDejas": "23:30",
+        "tabla": [
+          {
+            "tren": 3702,
+            "salida": "18:07",
+            "origen": "CASEROS",
+            "destino": "RETIRO",
+            "llegada": "18:43"
+          },
+          {
+            "tren": 3713,
+            "salida": "19:24",
+            "origen": "RETIRO",
+            "destino": "JOSE C PAZ",
+            "llegada": "20:33"
+          },
+          {
+            "tren": 3724,
+            "salida": "20:57",
+            "origen": "JOSE C PAZ",
+            "destino": "CASEROS",
+            "llegada": "21:30"
+          }
+        ]
+      },
+      "DO-FE": {
+        "horarioTomas": "16:15",
+        "horarioDejas": "23:30",
+        "tabla": [
+          {
+            "tren": 3897,
+            "salida": "19:55",
+            "origen": "CASEROS",
+            "destino": "CABRED",
+            "llegada": "21:13"
+          },
+          {
+            "tren": 3912,
+            "salida": "21:45",
+            "origen": "CABRED",
+            "destino": "CASEROS",
+            "llegada": "23:07"
+          }
+        ]
+      }
+    },
+    "2": {
+      "LU-VIE": {
+        "horarioTomas": "15:20",
+        "horarioDejas": "22:35",
+        "tabla": [
+          {
+            "tren": 3839,
+            "salida": "15:54",
+            "origen": "CASEROS",
+            "destino": "JOSE C PAZ",
+            "llegada": "16:38"
+          },
+          {
+            "tren": 3400,
+            "salida": "16:58",
+            "origen": "JOSE C PAZ",
+            "destino": "PILAR",
+            "llegada": "17:59"
+          },
+          {
+            "tren": 3415,
+            "salida": "18:45",
+            "origen": "PILAR",
+            "destino": "RETIRO",
+            "llegada": "20:22"
+          },
+          {
+            "tren": "desvia"
+          },
+          {
+            "tren": 3432,
+            "salida": "21:03",
+            "origen": " P/S PILAR",
+            "destino": "CASEROS",
+            "llegada": "21:50"
+          }
+        ]
+      },
+      "SA": {
+        "horarioTomas": "15:20",
+        "horarioDejas": "22:35",
+        "tabla": [
+          {
+            "tren": 3699,
+            "salida": "17:45",
+            "origen": "CASEROS",
+            "destino": "PILAR",
+            "llegada": "18:41"
+          },
+          {
+            "tren": 3714,
+            "salida": "19:09",
+            "origen": "PILAR",
+            "destino": "RETIRO",
+            "llegada": "20:31"
+          },
+          {
+            "tren": 3725,
+            "salida": "21:15",
+            "origen": "RETIRO",
+            "destino": "CASEROS",
+            "llegada": "21:50"
+          }
+        ]
+      },
+      "DO-FE": {
+        "horarioTomas": "15:20",
+        "horarioDejas": "22:35",
+        "tabla": [
+          {
+            "tren": 3885,
+            "salida": "17:51",
+            "origen": "CASEROS",
+            "destino": "CABRED",
+            "llegada": "19:09"
+          },
+          {
+            "tren": 3900,
+            "salida": "19:32",
+            "origen": "CABRED",
+            "destino": "CASEROS",
+            "llegada": "20:49"
+          }
+        ]
+      }
+    },
+    "3": {
+      "LU-VIE": {
+        "horarioTomas": "15:00",
+        "horarioDejas": "22:15",
+        "tabla": [
+          {
+            "tren": 3386,
+            "salida": "15:38",
+            "origen": "CASEROS",
+            "destino": "RETIRO",
+            "llegada": "16:14"
+          },
+          {
+            "tren": 3401,
+            "salida": "16:56",
+            "origen": "RETIRO",
+            "destino": "JOSE C PAZ",
+            "llegada": "18:32"
+          },
+          {
+            "tren": 3412,
+            "salida": "18:43",
+            "origen": "JOSE C PAZ",
+            "destino": "CASEROS",
+            "llegada": "20:54"
+          }
+        ]
+      },
+      "SA": {
+        "horarioTomas": "15:00",
+        "horarioDejas": "22:15",
+        "tabla": [
+          {
+            "tren": 3668,
+            "salida": "15:39",
+            "origen": "CASEROS",
+            "destino": "JOSE C PAZ",
+            "llegada": "16:15"
+          },
+          {
+            "tren": 3697,
+            "salida": "16:54",
+            "origen": "JOSE C PAZ",
+            "destino": "RETIRO",
+            "llegada": "17:29"
+          },
+          {
+            "tren": 3708,
+            "salida": "18:18",
+            "origen": "RETIRO",
+            "destino": "JOSE C PAZ",
+            "llegada": "19:20"
+          }
+        ]
+      },
+      "DO-FE": {
+        "horarioTomas": "15:00",
+        "horarioDejas": "22:15",
+        "tabla": [
+          {
+            "tren": 3880,
+            "salida": "17:20",
+            "origen": "CASEROS",
+            "destino": "CABRED",
+            "llegada": "17:56"
+          },
+          {
+            "tren": 3891,
+            "salida": "18:32",
+            "origen": "CABRED",
+            "destino": "CASEROS",
+            "llegada": "19:57"
+          },
+          {
+            "tren": 3906,
+            "salida": "20:30",
+            "origen": "CASEROS",
+            "destino": "CABRED",
+            "llegada": "21:49"
+          }
+        ]
+      }
+    },
+    "4": {
+      "LU-VIE": {
+        "horarioTomas": "14:50",
+        "horarioDejas": "22:05",
+        "tabla": [
+          {
+            "tren": 3405,
+            "salida": "18:00",
+            "origen": "CASEROS",
+            "destino": "JOSE C PAZ",
+            "llegada": "18:34"
+          },
+          {
+            "tren": 3416,
+            "salida": "19:07",
+            "origen": "JOSE C PAZ",
+            "destino": "CASEROS",
+            "llegada": "20:13"
+          },
+          {
+            "tren": 3431,
+            "salida": "20:56",
+            "origen": "RETIRO",
+            "destino": "CASEROS",
+            "llegada": "21:31"
+          }
+        ]
+      },
+      "SA": {
+        "horarioTomas": "14:50",
+        "horarioDejas": "22:05",
+        "tabla": [
+          {
+            "tren": 3701,
+            "salida": "18:04",
+            "origen": "CASEROS",
+            "destino": "JOSE C PAZ",
+            "llegada": "18:38"
+          },
+          {
+            "tren": 3723,
+            "salida": "20:11",
+            "origen": "JOSE C PAZ",
+            "destino": "CASEROS",
+            "llegada": "21:06"
+          }
+        ]
+      },
+      "DO-FE": {
+        "horarioTomas": "14:50",
+        "horarioDejas": "22:05",
+        "tabla": [
+          {
+            "tren": 3877,
+            "salida": "16:30",
+            "origen": "CASEROS",
+            "destino": "CABRED",
+            "llegada": "17:48"
+          },
+          {
+            "tren": 3892,
+            "salida": "18:47",
+            "origen": "CABRED",
+            "destino": "CASEROS",
+            "llegada": "19:57"
+          },
+          {
+            "tren": 3903,
+            "salida": "20:22",
+            "origen": "CASEROS",
+            "destino": "CABRED",
+            "llegada": "21:21"
+          }
+        ]
+      }
+    },
+    "5": {
+      "LU-VIE": {
+        "horarioTomas": "14:50",
+        "horarioDejas": "21:50",
+        "tabla": [
+          {
+            "tren": 3385,
+            "salida": "15:24",
+            "origen": "CASEROS",
+            "destino": "JOSE C PAZ",
+            "llegada": "15:58"
+          },
+          {
+            "tren": 3411,
+            "salida": "18:11",
+            "origen": "JOSE C PAZ",
+            "destino": "RETIRO",
+            "llegada": "19:20"
+          },
+          {
+            "tren": 3422,
+            "salida": "19:55",
+            "origen": "RETIRO",
+            "destino": "CASEROS",
+            "llegada": "20:28"
+          }
+        ]
+      },
+      "SA": {
+        "horarioTomas": "14:50",
+        "horarioDejas": "21:50",
+        "tabla": [
+          {
+            "tren": 3695,
+            "salida": "17:09",
+            "origen": "CASEROS",
+            "destino": "PILAR",
+            "llegada": "18:05"
+          },
+          {
+            "tren": 3710,
+            "salida": "18:25",
+            "origen": "PILAR",
+            "destino": "RETIRO",
+            "llegada": "19:55"
+          },
+          {
+            "tren": 3721,
+            "salida": "20:46",
+            "origen": "RETIRO",
+            "destino": "CASEROS",
+            "llegada": "21:17"
+          }
+        ]
+      },
+      "DO-FE": {
+        "horarioTomas": "14:50",
+        "horarioDejas": "21:50",
+        "tabla": [
+          {
+            "tren": 3883,
+            "salida": "17:30",
+            "origen": "CASEROS",
+            "destino": "PILAR",
+            "llegada": "18:26"
+          },
+          {
+            "tren": 3894,
+            "salida": "18:49",
+            "origen": "PILAR",
+            "destino": "RETIRO",
+            "llegada": "20:20"
+          },
+          {
+            "tren": 3905,
+            "salida": "20:46",
+            "origen": "RETIRO",
+            "destino": "CASEROS",
+            "llegada": "21:21"
+          }
+        ]
+      }
+    },
+    "6": {
+      "mensaje": "Franco"
+    },
+    "7": {
+      "mensaje": "Franco"
+    }
+  }
+
+}
+
